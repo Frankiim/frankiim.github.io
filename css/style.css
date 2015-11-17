@@ -1,10 +1,10 @@
-
+/*
 h1 {
 	font-size: 3.2em;
 	font-family: 'Homemade Apple';
 	font-weight: bold;
 	color: #595858;
-	/*text-shadow: 2px 3px 1px #e6e8ea;*/
+	text-shadow: 2px 3px 1px #e6e8ea;
 	text-align: center;
 	padding: 2px;
 }
@@ -16,10 +16,10 @@ h2 {
 
 p {
 	font-size: 1.1em;
-}
+}*/
 
 .img {
-	background-image: url('../media/coming_soon.jpg');
+	background-image: url('../media/smokin.jpg');
 	background-repeat: no-repeat;
 	background-size: 350px 350px;
 	height: 350px;
@@ -27,12 +27,12 @@ p {
 	margin:0 auto;
 	display: block;
 	border-radius: 100%;
-	opacity: 0.1;
+	opacity: 0.8;
 }
 
 .img:hover {
 	background-image: url('../media/profile_hold_2015.jpg');
-	opacity: 0.2;
+	opacity: 0.8;
 	height: 350px;
 	width: 350px;
 	}
@@ -97,5 +97,17 @@ nav li a span{
 nav li a{
 	padding: 0 25px;
 }
+
+h1{
+	display: none;
+}
+
+.img:hover,
+.img {
+
+	background-size: 230px 230px;
+	height: 230px;
+	width: 230px;
+	
 
 }
