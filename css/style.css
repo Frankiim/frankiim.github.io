@@ -1,12 +1,12 @@
 
 h1 {
-	font-size: 2.2em;
+	font-size: 3.2em;
 	font-family: 'Homemade Apple';
 	font-weight: bold;
 	color: #595858;
 	/*text-shadow: 2px 3px 1px #e6e8ea;*/
 	text-align: center;
-	padding: 10px;
+	padding: 2px;
 }
 
 h2 {
@@ -81,5 +81,21 @@ nav li a img{
 
 .row {
 	margin: 60px;
+}
+
+@media only screen and (max-width: 545px){ 
+
+h1 {
+	font-size: 1.5em;
+	
+}
+
+nav li a span{
+	display:none;
+}
+
+nav li a{
+	padding: 0 25px;
+}
 
 }
