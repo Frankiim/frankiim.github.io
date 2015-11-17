@@ -21,17 +21,20 @@ p {
 .img {
 	background-image: url('../media/coming_soon.jpg');
 	background-repeat: no-repeat;
-	background-size: 180px 180px;
-	height: 180px;
-	width: 180px;
+	background-size: 350px 350px;
+	height: 350px;
+	width: 350px;
 	margin:0 auto;
 	display: block;
 	border-radius: 100%;
-	opacity: 0.5;
+	opacity: 0.1;
 }
 
 .img:hover {
 	background-image: url('../media/profile_hold_2015.jpg');
+	opacity: 0.2;
+	height: 350px;
+	width: 350px;
 	}
 
 header {
