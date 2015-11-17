@@ -21,13 +21,17 @@ p {
 .img {
 	background-image: url('../media/smokin.jpg');
 	background-repeat: no-repeat;
-	background-size: 350px 350px;
-	height: 350px;
-	width: 350px;
+	background-size: 365px 365px;
+	height: 365px;
+	width: 365px;
 	margin:0 auto;
 	display: block;
 	border-radius: 100%;
 	opacity: 0.8;
+	-webkit-transition: all 1s ease-out;
+  	   -moz-transition: all 1s ease-out;
+  	     -o-transition: all 1s ease-out;
+  	        transition: all 1s ease-out;
 }
 
 .img:hover {
@@ -70,11 +74,11 @@ nav li a {
 	padding: 0 65px;
 }
 
-nav a:hover{
+nav a:hover {
 	color: #199494;
 }
 
-nav li a img{
+nav li a img {
 	height: 20.8px;
 	padding: 0 10px;
 }
@@ -90,24 +94,26 @@ h1 {
 	
 }
 
-nav li a span{
-	display:none;
-}
-
-nav li a{
-	padding: 0 25px;
-}
-
-h1{
+nav li a span {
 	display: none;
 }
 
-.img:hover,
+nav li a {
+	padding: 0 25px;
+}
+
+h1 {
+	display: none;
+}
+
+.img:hover {
+	background-size: 215px 215px;
+	height: 215px;
+	width: 215px;
+}
 .img {
-
-	background-size: 230px 230px;
-	height: 230px;
-	width: 230px;
+	background-size: 235px 235px;
+	height: 235px;
+	width: 235px;
 	
-
 }
