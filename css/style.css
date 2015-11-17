@@ -1,0 +1,83 @@
+
+h1 {
+	font-size: 2.2em;
+	font-family: 'Homemade Apple';
+	font-weight: bold;
+	color: #595858;
+	/*text-shadow: 3px 3px 2px #595858;*/
+	text-align: center;
+	padding: 40px;
+}
+
+h2 {
+	font-size: 1.2em;
+	color: #16527e;
+}
+
+p {
+	font-size: 1.1em;
+}
+
+.img {
+	background-image: url('../media/coming_soon.jpg');
+	background-repeat: no-repeat;
+	background-size: 180px 180px;
+	height: 180px;
+	width: 180px;
+	margin:0 auto;
+	display: block;
+	/*padding-bottom: 0px;*/
+	border-radius: 100%;
+	opacity: 0.5;
+}
+
+.img:hover {
+	background-image: url('../media/profile_hold_2015.jpg');
+	}
+
+header {
+	padding-top: 100px;
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+nav {
+	background-color: #595858;
+	text-align: center;
+	padding: 25px 0;
+}
+
+nav li {
+	list-style: none;
+	display: inline-block;
+
+}
+
+nav li a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.3em;
+	font-style: oblique;
+	padding: 0 65px;
+}
+
+nav a:hover{
+	color: #199494;
+}
+
+nav li a img{
+	height: 20.8px;
+	padding: 0 10px;
+}
+
+.row {
+	margin: 60px;
+
+}
