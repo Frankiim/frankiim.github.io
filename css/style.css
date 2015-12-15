@@ -18,6 +18,20 @@ p {
 	font-size: 1.1em;
 }*/
 
+@-webkit-keyframes pulse { 
+	0% {background-color: #bdc3c7;} 
+	20% {background-color: #9b59b6;} 
+	40% {background-color: #1abc9c;} 
+	60% {background-color: #7f8c8d;} 
+	80% {background-color: #252525;}
+	100% {background-color: #bdc3c7;}	 
+}  
+
+body {
+	background-color: #bdc3c7;
+	-webkit-animation: pulse 25s 5s infinite normal;
+}
+
 .img {
 	background-image: url('../media/smokin.jpg');
 	background-repeat: no-repeat;
@@ -55,7 +69,7 @@ footer {
 
 
 nav {
-	background-color: #595858;
+	background-color: rgba(89,88,88, 0.3);
 	text-align: center;
 	padding: 25px 0;
 }
