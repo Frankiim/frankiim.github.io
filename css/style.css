@@ -61,7 +61,7 @@ footer {
 
 
 nav {
-	background-color: rgba(89,88,88, 0.3);
+	background-color: gray;
 	text-align: center;
 	padding: 25px 0;
 }
@@ -76,13 +76,14 @@ nav li a {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-family: calibri;
 	font-size: 1.3em;
-	font-style: oblique;
+	/*font-style: oblique;*/
 	padding: 0 65px;
 }
 
 nav a:hover {
-	color: #199494;
+	color: #32AFD9;
 }
 
 nav li a img {
