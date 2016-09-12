@@ -18,19 +18,11 @@ p {
 	font-size: 1.1em;
 }*/
 
-@-webkit-keyframes pulse { 
-	0% {background-color: #fff;} 
-	20% {background-color: #252525;} 
-	40% {background-color: #1abc9c;} 
-	60% {background-color: #7f8c8d;} 
-	80% {background-color: #252525;}
-	100% {background-color: #fff;}	 
-}  
+@
 
 body {
 	background-color: #fff;
-	-webkit-animation: pulse 25s 5s infinite normal;
-}
+	}
 
 .img {
 	background-image: url('../media/smokin.jpg');
@@ -44,21 +36,21 @@ body {
   	left: 50%;
   	margin-left: -182.5px;
 	border-radius: 50%;
-	opacity: 0.25;
+	opacity: 0.75;
 	-webkit-transition: all 1s ease-out;
   	   -moz-transition: all 1s ease-out;
   	     -o-transition: all 1s ease-out;
   	        transition: all 1s ease-out;
 }
 
-.img:hover {
+/*.img:hover {
 	background-image: url('../media/profile_hold_2015.jpg');
 	opacity: 0.25;
 	height: 350px;
 	width: 350px;
 	margin-top: -198px; 
 	margin-left:-175px;
-}
+}*/
 
 
 footer {
@@ -121,13 +113,13 @@ h1 {
 	display: none;
 }
 
-.img:hover {
+/*.img:hover {
 	background-size: 225px 225px;
 	height: 225px;
 	width: 225px;
 	margin-top: -135.5px;
 	margin-left: -112.5px;
-}
+}*/
 .img {
 	background-size: 235px 235px;
 	height: 235px;
